@@ -18,3 +18,10 @@ function checkCountValue() {
         alert("Your insta reached 20 followers! what an achievement.");
     }
 }
+
+function resetCount() {
+    count = 0;
+    displayCount();
+    alert("Count is reset.")
+}
+
